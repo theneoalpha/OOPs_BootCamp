@@ -24,3 +24,47 @@
                 }
              }
 
+
+        # Classes and Objects 
+
+            basic components of OOPs - Classes and Objects
+
+            # Pseudo Code 
+                File.java
+
+                    public class File{           [Single public class and  the file name and public class name must be same]
+                        
+                        class Phone{
+
+                        }
+
+                        class Car{
+
+                        }
+                    }     
+
+            # Actual code with classes and object      
+
+
+                MainClass.java
+
+                    package basics;
+
+                    class Person{
+                        String name;
+                        int age;
+                    }  
+
+                    public class MainClass{
+                        public static void main(String[] args){
+                            Person p1 = new Person();     //Normal Class(jo public na ho) ko access karne ke liye uss class ka object banana padhta hai.then only access kar sakte hai.
+                            p1.name = "Deepak";
+                            p1.age = 34;
+                
+                        }
+                    }
+            
+        
+
+
+
