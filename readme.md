@@ -63,7 +63,22 @@
                 
                         }
                     }
-            
+        # Methods : behaviour or task which we have to done.
+
+            class Person{
+                String name;
+                int age;                 //Properties
+                
+
+                void walk(){                      //Method1
+                    System.out.println(" "+ name + "is walking");
+                }
+
+                void eat(){                      //Method2
+                    System.out.println(" "+name + "is eating");
+                }
+
+            }   
         
 
 
